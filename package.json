@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js -e hbs,js"
+    "devStart": "nodemon server.js -e hbs,js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Zachary J. Baldwin <zacharyjbaldwin@gmail.com> (https://www.github.com/zacharyjbaldwin)",
