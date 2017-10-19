@@ -1,5 +1,5 @@
 // SITE SETTINGS
-var maintenanceMode = true;
+var maintenanceMode = false;
 
 const express = require('express');
 const fs = require('fs');
