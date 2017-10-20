@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js -e hbs,js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "git add . && git commit -m \"deployed with npm\" && git push origin && git push heroku"
   },
   "keywords": [],
   "author": "Zachary J. Baldwin <zacharyjbaldwin@gmail.com> (https://www.github.com/zacharyjbaldwin)",
